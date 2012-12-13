@@ -1,0 +1,58 @@
+body {
+  background-color: #f7f5f0;
+  margin: 20px;
+}
+
+.thumb img {
+  width: 100%;
+}
+.thumb
+/* , article img */
+{
+  float: right;
+  max-width: 200px;
+  width: 100%;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+nav, .site-title, .site-title a {
+  margin: 0;
+  padding: 0;
+}
+.site-title a {
+  font-size: 2em;
+  font-family: "Erica One", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  color: #a9b900;
+/*   color: #994030; */
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 2.2em;
+}
+p, blockquote {
+  font-family: sans-serif;
+  font-size: 0.9em;
+}
+
+.toc {
+  width: fit-content;
+  border: 1px solid #999;
+  padding: 0.7em 0.5em;
+}
+.toc summary {
+  font-weight: bold;
+  font-size: 0.7em;
+}
+.toctitle {
+  font-size: 1.5em;
+  vertical-align: middle;
+}
+.tocitem-container {
+  margin-top: 0.5em;
+}
+summary {
+  cursor: pointer;
+}
